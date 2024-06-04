@@ -6,15 +6,17 @@ export function Button(props) {
   return (
     <button
       css={css`
-        width: 171.19px;
+        display: block;
+        background-color: ${props.color};
+        margin: 10px;
+        width: 170px;
         height: 50px;
         border: none;
         border-radius: 4px;
-        text-align: center;
-        padding: 0px 16px;
         color: white;
-        gap: 8px;
-        background-color: ${props.color};
+        font-weight: 400;
+        font-size: 16px;
+        font-family: "Sarabun", sans-serif;
       `}
     >
       Button
